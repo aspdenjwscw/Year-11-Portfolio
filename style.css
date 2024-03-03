@@ -1,27 +1,80 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
+/* The navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color:#223546;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: center;
+    font-size: 25x;
+    color: white;
+    text-align: center;
+    padding: 14px 199px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
   }
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
+  /* Add background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:#245B47;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
     color: black;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+h2, h1 {
+    text-decoration: none;
+    text-align: center;
     color: white;
+    font-family: sans-serif;
+  }
+
+  body {
+    background-color: #223546;
+    background-image: url(kratos.webp);
+    background-size: 80%;
+    background-blend-mode: soft-light
   }
