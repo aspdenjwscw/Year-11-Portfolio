@@ -1,40 +1,102 @@
-/* Adds a background to the navigation bar */
-.topnav {
-    background-color: #C2948A;
-    overflow: hidden;
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #2980b9;
 }
 
-/*Style the links inside the navigation bar */
-.topnav a {
-    float: center;
-    color: #000000;
-    text-align: center;
-    padding: 50px 150px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/*Styles the headings */
 
-h1 {
-    color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    float: center;
-    text-align: center;
-    text-decoration: none;
-    font-size: 52px;
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
 }
 
-h2 {
-    color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    float: center;
-    text-align: center;
-    text-decoration: none;
-    font-size: 22px;
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
 }
 
-main {
-    background-color: F6F0ED;
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #5DADE2;
+}
+
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #2980b9;
+  width: 25%;
+  z-index: 1;
+}
+
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #5DADE2;
+  color: #5DADE2;
+}
+
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+h1, h2 {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  float: center;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  background-image: url('kratos.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 70%;
+  pointer-events: none;
 }
