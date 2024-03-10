@@ -90,8 +90,8 @@ h1, h2, h3, p {
 
 hr {
   color:#5DADE2;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .about_me_hr{
@@ -157,6 +157,10 @@ li {
   margin-bottom: 10px;
 }
 
+.link__text a {
+  color: white;
+}
+
 .link__text2 {
   background-color: #2980b9;
   color: white;
@@ -203,4 +207,14 @@ li {
   list-style-type: circle;
   padding: 0px;
   font-weight: bold;
+}
+
+.paragraphunderline {
+  text-decoration: underline;
+}
+
+.implicationsli {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 300px;  
+  font-size: 16px;
 }
