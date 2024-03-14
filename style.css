@@ -243,3 +243,17 @@ li {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-right: 750px;
 }
+
+.right-text {
+  display: inline-block; 
+  vertical-align: middle; 
+}
+
+.right-text img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  vertical-align: middle; 
+}
+  
+
