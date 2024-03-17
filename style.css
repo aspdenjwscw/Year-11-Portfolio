@@ -5,6 +5,8 @@
 }
 
 
+
+
 /* Navigation links */
 .navbar a {
   float: left;
@@ -17,11 +19,15 @@
 }
 
 
+
+
 /* The subnavigation menu */
 .subnav {
   float: left;
   overflow: hidden;
 }
+
+
 
 
 /* Subnav button */
@@ -37,10 +43,14 @@
 }
 
 
+
+
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #5DADE2;
 }
+
+
 
 
 /* Style the subnav content - positioned absolute */
@@ -54,6 +64,8 @@
 }
 
 
+
+
 /* Style the subnav links */
 .subnav-content a {
   float: left;
@@ -63,6 +75,8 @@
 }
 
 
+
+
 /* Add a grey background color on hover */
 .subnav-content a:hover {
   background-color: #5DADE2;
@@ -70,10 +84,13 @@
 }
 
 
+
+
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
 }
+
 
 .hometitle1, .hometitle2 {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -82,11 +99,13 @@
   margin-right: 300px;
 }
 
+
 h1, h2, h3, p {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 300px;
   margin-right: 300px;
 }
+
 
 hr {
   color:#5DADE2;
@@ -94,26 +113,26 @@ hr {
   margin-right: 300px;
 }
 
+
 .about_me_hr{
   margin-left:0px;
   margin-right:0px;
 }
 
-.project1title {
-  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 html {
   scroll-behavior: smooth;
 }
 
+
 body {
   margin: 0;
 }
 
+
 body::before {
   content: "";
-  background-image: url('./images/kratos.png');
+  background-image: url('kratos.png');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -126,9 +145,11 @@ body::before {
   pointer-events: none;
 }
 
+
 hr {
   border-radius: 3;
 }
+
 
 .link__text {
   position: relative;
@@ -138,6 +159,7 @@ hr {
   text-decoration: none;
 }
 
+
 li {
   list-style-type: circle;
   margin: 0;
@@ -146,6 +168,7 @@ li {
   font-size: 20px;
   margin-left: 300px;
 }
+
 
 .link__text {
   background-color: #2980b9;
@@ -157,9 +180,11 @@ li {
   margin-bottom: 10px;
 }
 
+
 .link__text a {
   color: white;
 }
+
 
 .link__text2 {
   background-color: #2980b9;
@@ -171,11 +196,13 @@ li {
   margin-bottom: 10px;
 }
 
+
 .project1headings {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   float: center;
   font-size: 40px;
 }
+
 
 .project1secondheadings {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -183,22 +210,25 @@ li {
   font-size: 25px;
 }
 
+
 .project1title {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-left: 47%;
-  text-align: left;
+  text-align: center;
 }
+
 
 .final__links {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 300px;  
 }
 
+
 .link__repo {
   height: 32px;
   width: 32px;
   transition: all .3s;
 }
+
 
 .link__repo {
   margin-left: 300px;
@@ -207,14 +237,9 @@ li {
   border: none;
 }
 
+
 .link__repo:hover {
   transform: scale(1.3);
-}
-
-.right-text {
-  flex: 0 0 45%;
-  margin-left: 800px;
-  display: inline-block;
 }
 
  .requirementheaderlist {
@@ -223,9 +248,11 @@ li {
   font-weight: bold;
 }
 
+
 .paragraphunderline {
   text-decoration: underline;
 }
+
 
 .implicationsli {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -233,13 +260,32 @@ li {
   font-size: 16px;
 }
 
+
 .project1developmenttitle {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-  float: center;
   text-align: center;
 }
+
 
 .project1developmentp {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-right: 750px;
+  
 }
+
+.right-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.placeholderimg {
+  width: 250px;
+  height: 250px;
+  margin-left: 300px;
+}
+
+
+
+
+
+
