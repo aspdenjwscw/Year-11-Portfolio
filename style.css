@@ -284,8 +284,11 @@ li {
   margin-left: 300px;
 }
 
+.imagemargin {
+  margin-left: 300px;
+}
 
-
-
-
-
+.smallerimage {
+  width: 250px;
+  height: 250px;
+}
