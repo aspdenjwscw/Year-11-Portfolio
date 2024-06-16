@@ -278,10 +278,10 @@ li {
   vertical-align: middle;
 }
 
-.placeholderimg {
-  width: 250px;
-  height: 250px;
-  margin-left: 300px;
+.codetestingimg {
+  margin-left: auto;
+  width: auto;
+  height: 150px;
 }
 
 .imagemargin {
@@ -291,4 +291,21 @@ li {
 .smallerimage {
   width: 250px;
   height: 250px;
+}
+
+thead {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 300px; 
+}
+
+td {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; 
+  text-align: center;
+  padding: 100px;
+}
+
+table {
+  margin-left: 300px;
+  border-collapse: collapse;
+  margin-right: 300px;
 }
