@@ -279,9 +279,15 @@ li {
 }
 
 .codetestingimg {
+  margin-left: 300px;
+  width: auto;
+  height: 250px;
+}
+
+.codetestingimg2 {
   margin-left: auto;
   width: auto;
-  height: 150px;
+  height: 250px;
 }
 
 .imagemargin {
@@ -290,7 +296,7 @@ li {
 
 .smallerimage {
   width: 250px;
-  height: 250px;
+  height: auto;
 }
 
 thead {
