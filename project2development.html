@@ -53,7 +53,7 @@
     <h2 class="project1secondheadings">Development</h2>
     <div class="split-box">
         <div class="left-text">
-            <p>Start of the multiplayer function.
+            <p>Start of the multiplayer function. At the start of the code is where I global variables so they can be used in the function. The while True loop runs a piece of code that receives an input of which user wants to start. If the input was equal to player1's name, they will start as the turns will be minus 1, initiating their turn. The opposite happens for player2. If the input is not equal to player1 or player2's name, it will print a message saying it's invalid, then repeating the question.
                </p>
         </div>
       <div class="right-img">
@@ -62,7 +62,7 @@
 
       <div class="split-box">
         <div class="left-text">
-            <p>Middle of the multiplayer function, runs player1s turns.
+            <p>This part includes a loop of player1s turn, it'll ask them where they want their piece, then check if it's an invalid input or if the place has already been used. It will then insert their "O" piece onto the given part of the board.
                </p>
         </div>
       <div class="right-img">
@@ -71,7 +71,7 @@
 
       <div class="split-box">
         <div class="left-text">
-            <p>End of the multiplayer function, runs player2s turns.
+            <p>Same code as the one above, just for player2.
                </p>
         </div>
       <div class="right-img">
@@ -135,9 +135,12 @@
         <p class="paragraphunderline">How can I improve this function?</p>
           <p>There are some parts of the code that you could simplify so it is easier to read and understand. - Finlay
               </p>
-        <p class="paragraphunderline">How can I improve this function?</p>
+        <p class="paragraphunderline">What could I do to this function to make it easier to read?</p>
         <p>Add comments in the code so people can understand the code. - Corey
-        </p>       
+        </p>
+        <p class="paragraphunderline">Overall, do you think this code is good and effective?</p>
+        <p>Yes, it is good because it works however it is a bit messy and complicated to understand. - Oscar
+        </p>
       </div>
 
     <!-- Improvements -->
@@ -175,7 +178,7 @@
       <h2 class="project1secondheadings">Development</h2>
       <div class="split-box">
           <div class="left-text">
-              <p>Globalling variables and asking the player if they want to start or not.
+              <p>Globals the variables so they can be used. It then gets the input of who starts, either the human player or the computer. If the player says yes for them to start, they will, if they say no, the computer will start. If the input does not equal to either of those it will tell them and repeat the question until there is a valid input.
                  </p>
           </div>
         <div class="right-img">
@@ -184,16 +187,16 @@
   
         <div class="split-box">
           <div class="left-text">
-              <p>Human players part of the singleplayer function, where they make their moves.
+              <p>Human players part of the singleplayer function, where they make their moves. It is the same code as the 2 main pieces of the multiplayer function.
                  </p>
           </div>
         <div class="right-img">
             <img class = "codetestingimg" src="Images/2development.PNG" alt="multiplayer">
-        </div>i
+        </div>
   
         <div class="split-box">
           <div class="left-text">
-              <p>
+              <p>The computers part of the singleplayer function. It makes a random choice from the numbers, and then checks if it's valid (hasn't been used), if it has, it will repeat until it hasn't. It then does the same as the singleplayer function but waits a couple seconds before printing so it is not immediate.
                  </p>
           </div>
         <div class="right-img">
@@ -252,11 +255,40 @@
     <div class="split-box">
       <div class="left-text">
         <p class="paragraphunderline">How can I improve this function?</p>
-          <p>
+          <p>There is a bug where name2 is not defined in the singleplayer function, causing bugs. - Finlay
               </p>
-        <p class="paragraphunderline">How can I improve this function?</p>
-        <p>
-        </p>       
+        <p class="paragraphunderline">What could I do to this function to make it easier to read?</p>
+        <p>Add more coments. - Corey
+        </p>
+        <p class="paragraphunderline">Overall, do you think this code is good and effective?</p>
+        <p>It is a bit easier to understand than the other piece of code but it's again good because it works. - Oscar
+        </p>        
       </div>
 
+    <!-- Improvements -->
+    <h1 class="project1secondheadings">Improvements</h1>
+    <div class="split-box">
+      <table>
+        <thead>
+        <tr>
+          <th>Changes</th>
+          <th>Before</th>
+          <th>After</th>
+        </tr>
+        </thead>
+
+        <tr>
+          <td>Defined name2 as computer, fixing the bug.</td>
+          <td><img class="smallerimg" src="Images/improvement3.PNG" alt="Testing 3"></td>
+          <td><img class="smallerimg" src="Images/improvement3.1.PNG" alt="Testing 3.1"></td>
+        </tr>
+
+        <tr>
+          <td>Added more comments.</td>
+          <td><img class="smallerimg" src="Images/improvements4.2.PNG" alt="Testing 3"></td>
+          <td><img class="smallerimg" src="Images/improvements4.3.PNG" alt="Testing 3.1"></td>
+        </tr>
+
+      </table>
+    </div>
 

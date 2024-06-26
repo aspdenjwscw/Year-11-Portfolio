@@ -299,6 +299,11 @@ li {
   height: auto;
 }
 
+.verysmall {
+  width: 200px;
+  height: 200px;
+}
+
 thead {
   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 300px; 
